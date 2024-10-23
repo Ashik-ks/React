@@ -10,7 +10,6 @@ export default function ParentComponent() {
     const handleSubmit = (data) => {
         setDataToDisplay(data);
     }
-
     return(
         <>
         <FormComponent onSubmit={handleSubmit} />

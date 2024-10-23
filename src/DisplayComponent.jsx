@@ -4,7 +4,10 @@ export default function DisplayComponent({displayData}) {
 
     return(
         <>
-        <h1>Data : {displayData}</h1>
+        <h1>Name : {displayData.name}</h1>
+        <h1>Email : {displayData.email}</h1>
+        <h1>Place : {displayData.place}</h1>
+        <h1>Pincode : {displayData.pincode}</h1>
         </>
     )
 }
