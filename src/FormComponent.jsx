@@ -43,7 +43,7 @@ export default function FormComponent({onSubmit}) {
             })
         }
     }
-
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log("Form submitted...");
