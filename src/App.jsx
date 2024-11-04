@@ -8,7 +8,12 @@
 // import BasicRouting1 from "./Components/BasicRouting1/BasicRouting1"
 // import NestedRouting1 from "./Components/NestedRouting/NestedRouting1"
 // import UncontrolledComponent from "./Components/ControlledandUncontrolled/UnControlledComponent";
-import MyComponentWithUppercase from "./Components/HigherOrderComponent/HigherOrderComponent";
+// import MyComponentWithUppercase from "./Components/HigherOrderComponent/HigherOrderComponent";
+// import UseState from "./Components/useState/useState";
+// import UseState1 from "./Components/useState/useState1";
+// import UseEffectComponent from "./Components/useEffect/UseEffect";
+import UseEffectComponent1 from "./Components/useEffect/UseEffect1";
+
 
 function App() {
   return (
@@ -22,7 +27,11 @@ function App() {
       {/* <NestedRouting1 /> */}
       {/* <ControlledComponent /> */}
       {/* <UncontrolledComponent /> */}
-      <MyComponentWithUppercase text={"hello"} />
+      {/* <MyComponentWithUppercase text={"hello"} /> */}
+      {/* <UseState /> */}
+      {/* <UseState1 /> */}
+      {/* <UseEffectComponent /> */}
+      <UseEffectComponent1 />
     </>
   );
 }

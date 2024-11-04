@@ -1,4 +1,4 @@
-
+//interview question
 const withUppercase = (WrappedComponent) => {
     return function({text, ...restprops}) {
 
@@ -8,7 +8,6 @@ const withUppercase = (WrappedComponent) => {
         
     }
 }
-
 
 //Component
 const MyComponent = ({text}) => <div>{text}</div>
